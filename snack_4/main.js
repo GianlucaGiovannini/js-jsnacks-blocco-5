@@ -8,6 +8,13 @@ const numeri = [1, 2, 3]
 
 
 // creo una funzione
+
+/** ## Unione array 
+ * prendere alternamente le stringhe/numeri da un'array e poi dall'altro 
+ * @param {array} array_primo  inserisci un array
+ * @param {array} array_secondo inserisci un'altro array
+ * @returns {array} restituisce un'array che unisce ogni elemento in posizione index (1, 1, 2, 2, 3, 3)
+ */
 function unioneArray(array_primo, array_secondo) {
     const arrayUnito = []
 
