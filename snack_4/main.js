@@ -30,5 +30,33 @@ function unioneArray(array_primo, array_secondo) {
     return [arrayUnito]
 }
 
-
 console.log(unioneArray(lettere, numeri))
+
+/*  SOLUZIONE FABIO  */
+
+// definire primo array
+const lettere2 = ["a", "b", "c"]
+
+//definire secondo array
+const numeri2 = [1, 2, 3]
+    // ciclare nel primo array
+
+// pushare l'elemnto in un nuovo array
+
+// selezionare l'elemento della seconda array
+
+//pusharlo nella nel nuovo array
+
+function mergeArrays(array_1, array_2) {
+
+    const newArrayFabio = []
+    if (array_1.lenght === array_2.lenght) {
+        array_1.forEach((element, index) => {
+            newArrayFabio.push(element)
+            newArrayFabio.push(array_2[index])
+        })
+        return newArrayFabio
+    }
+}
+
+console.log(mergeArrays(lettere2, numeri2))

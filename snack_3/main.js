@@ -10,5 +10,8 @@
 function reverse(word) {
     const wordReverse = word.split("").reverse().join("")
     return wordReverse
+
+    // oppure 
+    // return word.split("").reverse().join("")
 }
 console.log(reverse("ciao"))
