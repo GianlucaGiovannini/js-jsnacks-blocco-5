@@ -23,3 +23,16 @@ console.log(zucchineLunghe)
 
 const zucchineCorte = zucchine.filter(zucchina => zucchina.lunghezza > 15)
 console.log(zucchineCorte)
+
+let sommaZucchineLunghe = 0;
+let sommaZucchineCorte = 0;
+
+zucchineLunghe.forEach(zucchina => {
+    sommaZucchineLunghe += zucchina.peso
+})
+console.log(sommaZucchineLunghe)
+
+zucchineCorte.forEach(zucchina => {
+    sommaZucchineCorte += zucchina.peso
+})
+console.log(sommaZucchineCorte)
