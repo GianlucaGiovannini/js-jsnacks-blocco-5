@@ -7,8 +7,6 @@ const lettere = ["a", "b", "c"]
 const numeri = [1, 2, 3]
 
 
-// creo una funzione
-
 /** ## Unione array 
  * prendere alternamente le stringhe/numeri da un'array e poi dall'altro 
  * @param {array} array_primo  inserisci un array
